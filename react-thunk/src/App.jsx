@@ -26,7 +26,7 @@ function App(){
           <hr />
         </div>
       })}
-      <button onClick={getData}>GetData</button>
+      <button style={{color:"red"}} onClick={getData}>Button</button>
     </>
   )
 }
